@@ -14,3 +14,9 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Você pode tirar a CNH")
+else:
+    print("Continue andando a pé🤣🤣🤣")

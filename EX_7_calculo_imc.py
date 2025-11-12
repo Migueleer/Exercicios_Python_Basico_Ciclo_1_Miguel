@@ -12,3 +12,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+peso = float(input("Digite seu peso: "))
+altura = float(input("Digite sua altura: "))
+imc = peso / (altura ** 2)
+imc_arredondado = round(imc,2)
+print(f"Seu imc é {imc_arredondado}")

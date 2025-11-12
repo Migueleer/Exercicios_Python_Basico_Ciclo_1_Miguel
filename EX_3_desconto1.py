@@ -12,3 +12,9 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+preco = float(input("Digite o preço do produto: "))
+valor_desconto = float(input("Digite o valor do desconto: "))
+desconto = preco * (valor_desconto/100)
+
+print(f"O preço do produto é {preco:.2f}, tendo um desconto de {valor_desconto}, o desconto é de  {desconto:.2f}")
+

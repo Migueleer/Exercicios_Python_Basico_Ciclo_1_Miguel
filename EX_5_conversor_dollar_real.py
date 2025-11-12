@@ -9,5 +9,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+dollar_atual = float(input("Digite a cotação do dollar hoje em dia: "))
+converter = float(input("Quantos dollars deseja converter em reais? "))
+convertendo = (dollar_atual * converter)
 
-
+print(f"A cotaçãodo dollar é: {dollar_atual}")
+print(f"O dollar convertido é: {converter}")
+print(f"O valor em reais é: {convertendo:.2f}")

@@ -37,3 +37,66 @@
 # Você andou 100.0km por 10 dias, então o preço a pagar é R$615.00.
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+precos_diarias = {
+    "Civic": 150.00,
+    "Fox": 130.00,
+    "Hb20": 120.00,
+    "I30": 150.00,
+    "Azera": 300.00,
+    "Corolla": 220.00,
+    "Kombi": 110.00
+}
+
+carro_alugado = input("Digite o carro que você alugou: ")
+diaria = float(input("Digite a diaria do carro alugado: "))
+dias = int(input(f'Por quantos dias o {carro_alugado} foi alugado? '))
+km = float(input(f'Quantos kms você rodou com o {carro_alugado}? '))
+
+total_dias = dias * diaria
+total_km = km * 0.15
+aluguel_total = total_dias+total_km
+
+if carro_alugado == 'Civic':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+elif carro_alugado == 'Fox':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+elif carro_alugado == 'Hb20':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+elif carro_alugado == 'I30':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+elif carro_alugado == 'Azera':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+elif carro_alugado == 'Corolla':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+elif carro_alugado == 'Kombi':
+    print(f"Você alugou o carro: {carro_alugado}.")
+    print(f"Você alugou o carro por {dias} dias.")
+    print(f"Você andou {km} km com o {carro_alugado}.")
+    print(f"O valor final a pagar é {aluguel_total}.")
+
+else:
+    print("Modelo invalido")

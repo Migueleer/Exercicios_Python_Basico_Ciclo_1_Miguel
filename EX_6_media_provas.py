@@ -21,3 +21,24 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nome_aluno = input("Digite seu nome: ")
+nota_1 = float(input("Digite a nota da primeira prova: "))
+nota_2 = float(input("Digite a nota da segunda prova: "))
+nota_3 = float(input("Digite a nota da terceira prova: "))
+
+soma = nota_1 + nota_2 + nota_3
+media = soma / 3
+
+print("| ______________________________ |")
+print("| SISTEMA DE PROVAS")
+print("| ______________________________ |")
+print(f"| Nome do aluno: {nome_aluno}")
+print(f"| Nota da primeira prova: {nota_1}")
+print(f"| Nota da segunda prova: {nota_2}")
+print(f"| Nota da terceira prova: {nota_3}")
+print("| ______________________________ |")
+print(f"| Aluno: {nome_aluno}")
+print(f"| Média: {media}")
+print(f"| Aluno {nome_aluno} foi aprovado")
+print("| ______________________________ |")
+

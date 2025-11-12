@@ -24,4 +24,23 @@
 # O valor em dólares é $26.55
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+# dollar_atual = float(input("Digite a cotação do dollar hoje em dia: "))
+# converter = float(input("Quantos dollars deseja converter em reais? "))
+# convertendo = (dollar_atual * converter)
+
+opcao = int(input("Escolha as opcões 1 ou 2: "))
+if opcao == 1:
+    dollar_atual = float(input("Digite a cotação do dollar hoje em dia: "))
+    converter = float(input("Quantos dollars deseja converter em reais? "))
+    convertendo = (dollar_atual * converter)
+    print(f" O valor em reais é R${convertendo:.2f}")
+
+elif opcao == 2:
+    real_atual = float(input("Digite a cotação do dolar hoje em dia: "))
+    convert = float(input("Quantos reais deseja converter em dollars? "))
+    convertido = (convert / real_atual)
+    print(f"O valor em dólares é ${convertido:.2f}")
+
+
+
 

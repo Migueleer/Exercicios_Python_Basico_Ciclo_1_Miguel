@@ -52,3 +52,85 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+opcao = int(input("Escolha uma das opções de 1 a 4: "))
+
+if opcao == 1:
+    numero_1 = int (input("Me fale um número:"))
+    numero_2 = int (input("Me fale um número:"))
+    soma = numero_1 + numero_2
+    print (f"o resultado de {numero_1} + {numero_2} = {soma}")
+
+elif opcao == 2:
+    numero_1 = int (input("Me fale um número:"))
+    numero_2 = int (input("Me fale um número:"))
+    soma = numero_1 - numero_2
+    print(f"o resultado de {numero_1} - {numero_2} = {soma}")
+
+elif opcao == 3:
+    numero_1 = int (input("Me fale um número:"))
+    numero_2 = int (input("Me fale um número:"))
+    soma = numero_1 * numero_2
+    print(f"o resultado de {numero_1} * {numero_2} = {soma}")
+
+elif opcao == 4:
+    numero_1 = int (input("Me fale um número:"))
+    numero_2 = int (input("Me fale um número:"))
+    soma = numero_1 / numero_2
+    print(f"o resultado de {numero_1} / {numero_2} = {soma}")
+
+else:
+    print("Número inválido")
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# numero_1 = int (input("me fale um numero:"))
+# numero_2 = int (input("me fale um numero:"))
+# operacao = input("digite um tipo de conta que voce quer fazer:")
+
+# if operacao == "somar" or operacao == "+":
+#     soma = numero_1 + numero_2
+#     print (f"o resultado de {numero_1} + {numero_2} = {soma}")
+    
+# elif operacao == "subtrair" or operacao == "-":
+#     soma = numero_1 - numero_2
+#     print(f"o resultado de {numero_1} - {numero_2} = {soma}")
+    
+# elif operacao == "multiplicar" or operacao == "*":
+#     soma = numero_1 * numero_2
+#     print(f"o resultado de {numero_1} * {numero_2} = {soma}")
+    
+# elif operacao == "dividir" or operacao == "/":
+#     soma = numero_1 / numero_2
+#     print(f"o resultado de {numero_1} / {numero_2} = {soma}")
+    
+# else:
+#     print("operação invalida")
